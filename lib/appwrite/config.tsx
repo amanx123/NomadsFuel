@@ -13,9 +13,8 @@ interface LoginUser {
 
 const appwrite = new Client()
 
-appwrite.setEndpoint(conf.appwriteUrl).setProject(conf.appwriteProjectId)
-
 export const account = new Account(appwrite)
+appwrite.setEndpoint(conf.appwriteUrl).setProject(conf.appwriteProjectId)
 
 class AppwriteService {
     async createAccount({ name, email, password }: CreateUser) {

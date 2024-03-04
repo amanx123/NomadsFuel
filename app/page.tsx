@@ -1,5 +1,5 @@
 
-import NavBar from "@/components/NavBar";
+
 import Link from "next/link";
 
 
@@ -7,7 +7,7 @@ export default function Home() {
 
   return (
     <>
-      <div className="h-screen">
+      {/* <div className="h-screen">
         <div className="mx-14">
           <section className="mt-40 h-[40vh] w-[40vw] text-3xl font-bold text-blue-950">
             <h1>The only Travel Itinerary planner you will ever need.</h1>
@@ -20,7 +20,7 @@ export default function Home() {
             </div>
           </section>
         </div>
-      </div>
+      </div> */}
 
 
     </>
