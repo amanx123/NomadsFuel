@@ -21,7 +21,9 @@ export default function Home() {
           </section>
         </div>
       </div> */}
-
+      <div className="flex justify-center items-start mx-auto text-4xl">
+        Coming Soon
+      </div>
 
     </>
   )
