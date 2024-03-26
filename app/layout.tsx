@@ -18,8 +18,8 @@ export default function RootLayout({
   return (
     <html lang="en" className='max-w-[1200px] mx-auto'>
       <body className={` ${inter.className} bg-slate-100 antialiased `}>
-        <NavBar />
-        <hr />
+        {/* <NavBar />
+        <hr /> */}
         {children}
       </body>
     </html>
